@@ -22,5 +22,17 @@
   "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\BLinkList.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\BLinkList.c",
   "file": "C:/vscode-workplace/c/pj1/src/data_struct/BLinkList.c",
   "output": "src/CMakeFiles/MainExec.dir/data_struct/BLinkList.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\Stack.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\Stack.c",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct/Stack.c",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\LinkStack.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\LinkStack.c",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct/LinkStack.c",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj"
 }
 ]

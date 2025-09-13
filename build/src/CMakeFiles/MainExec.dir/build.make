@@ -127,12 +127,42 @@ src/CMakeFiles/MainExec.dir/data_struct/BLinkList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MainExec.dir/data_struct/BLinkList.c.s"
 	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\vscode-workplace\c\pj1\src\data_struct\BLinkList.c -o CMakeFiles\MainExec.dir\data_struct\BLinkList.c.s
 
+src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj: src/CMakeFiles/MainExec.dir/flags.make
+src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj: C:/vscode-workplace/c/pj1/src/data_struct/Stack.c
+src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj: src/CMakeFiles/MainExec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj -MF CMakeFiles\MainExec.dir\data_struct\Stack.c.obj.d -o CMakeFiles\MainExec.dir\data_struct\Stack.c.obj -c C:\vscode-workplace\c\pj1\src\data_struct\Stack.c
+
+src/CMakeFiles/MainExec.dir/data_struct/Stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MainExec.dir/data_struct/Stack.c.i"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\vscode-workplace\c\pj1\src\data_struct\Stack.c > CMakeFiles\MainExec.dir\data_struct\Stack.c.i
+
+src/CMakeFiles/MainExec.dir/data_struct/Stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MainExec.dir/data_struct/Stack.c.s"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\vscode-workplace\c\pj1\src\data_struct\Stack.c -o CMakeFiles\MainExec.dir\data_struct\Stack.c.s
+
+src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj: src/CMakeFiles/MainExec.dir/flags.make
+src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj: C:/vscode-workplace/c/pj1/src/data_struct/LinkStack.c
+src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj: src/CMakeFiles/MainExec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj -MF CMakeFiles\MainExec.dir\data_struct\LinkStack.c.obj.d -o CMakeFiles\MainExec.dir\data_struct\LinkStack.c.obj -c C:\vscode-workplace\c\pj1\src\data_struct\LinkStack.c
+
+src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MainExec.dir/data_struct/LinkStack.c.i"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\vscode-workplace\c\pj1\src\data_struct\LinkStack.c > CMakeFiles\MainExec.dir\data_struct\LinkStack.c.i
+
+src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MainExec.dir/data_struct/LinkStack.c.s"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\vscode-workplace\c\pj1\src\data_struct\LinkStack.c -o CMakeFiles\MainExec.dir\data_struct\LinkStack.c.s
+
 # Object files for target MainExec
 MainExec_OBJECTS = \
 "CMakeFiles/MainExec.dir/main.c.obj" \
 "CMakeFiles/MainExec.dir/data_struct/List.c.obj" \
 "CMakeFiles/MainExec.dir/data_struct/LinkList.c.obj" \
-"CMakeFiles/MainExec.dir/data_struct/BLinkList.c.obj"
+"CMakeFiles/MainExec.dir/data_struct/BLinkList.c.obj" \
+"CMakeFiles/MainExec.dir/data_struct/Stack.c.obj" \
+"CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj"
 
 # External object files for target MainExec
 MainExec_EXTERNAL_OBJECTS =
@@ -141,11 +171,13 @@ src/MainExec.exe: src/CMakeFiles/MainExec.dir/main.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/List.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/LinkList.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/BLinkList.c.obj
+src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj
+src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/build.make
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/linkLibs.rsp
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/objects1.rsp
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable MainExec.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable MainExec.exe"
 	cd /d C:\vscode-workplace\c\pj1\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MainExec.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

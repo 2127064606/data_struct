@@ -177,6 +177,30 @@ data_struct/LinkList.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkList.c.s
 .PHONY : data_struct/LinkList.c.s
 
+data_struct/LinkStack.obj: data_struct/LinkStack.c.obj
+.PHONY : data_struct/LinkStack.obj
+
+# target to build an object file
+data_struct/LinkStack.c.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj
+.PHONY : data_struct/LinkStack.c.obj
+
+data_struct/LinkStack.i: data_struct/LinkStack.c.i
+.PHONY : data_struct/LinkStack.i
+
+# target to preprocess a source file
+data_struct/LinkStack.c.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.i
+.PHONY : data_struct/LinkStack.c.i
+
+data_struct/LinkStack.s: data_struct/LinkStack.c.s
+.PHONY : data_struct/LinkStack.s
+
+# target to generate assembly for a file
+data_struct/LinkStack.c.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.s
+.PHONY : data_struct/LinkStack.c.s
+
 data_struct/List.obj: data_struct/List.c.obj
 .PHONY : data_struct/List.obj
 
@@ -200,6 +224,30 @@ data_struct/List.s: data_struct/List.c.s
 data_struct/List.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/List.c.s
 .PHONY : data_struct/List.c.s
+
+data_struct/Stack.obj: data_struct/Stack.c.obj
+.PHONY : data_struct/Stack.obj
+
+# target to build an object file
+data_struct/Stack.c.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj
+.PHONY : data_struct/Stack.c.obj
+
+data_struct/Stack.i: data_struct/Stack.c.i
+.PHONY : data_struct/Stack.i
+
+# target to preprocess a source file
+data_struct/Stack.c.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Stack.c.i
+.PHONY : data_struct/Stack.c.i
+
+data_struct/Stack.s: data_struct/Stack.c.s
+.PHONY : data_struct/Stack.s
+
+# target to generate assembly for a file
+data_struct/Stack.c.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Stack.c.s
+.PHONY : data_struct/Stack.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -240,9 +288,15 @@ help:
 	@echo ... data_struct/LinkList.obj
 	@echo ... data_struct/LinkList.i
 	@echo ... data_struct/LinkList.s
+	@echo ... data_struct/LinkStack.obj
+	@echo ... data_struct/LinkStack.i
+	@echo ... data_struct/LinkStack.s
 	@echo ... data_struct/List.obj
 	@echo ... data_struct/List.i
 	@echo ... data_struct/List.s
+	@echo ... data_struct/Stack.obj
+	@echo ... data_struct/Stack.i
+	@echo ... data_struct/Stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
