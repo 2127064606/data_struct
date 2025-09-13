@@ -14,5 +14,9 @@ int main()
 {
    b_link_list *L;
    InitBLinkList(L);
-   
+   InsertBNode(*L, 1, -90);
+   //DeleteBNode(*L, 2, NULL);
+   PrintBLinkList(*L);
+   int a = GetBNodeByValue(*L, 2);
+   printf("%d\n", a);
 }

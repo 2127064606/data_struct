@@ -13,7 +13,8 @@ typedef struct BLinkList
 void InitBLinkList(b_link_list *L);
 bool InsertBNode(b_link_list, int i, int e);
 bool DeleteBNode(b_link_list L, int i, int *e);
-b_node *GetBNode(int i);
-int GetBNodeByValue(int e);
+b_node *GetBNode(b_link_list L, int i);
+void PrintBLinkList(b_link_list L);
+int GetBNodeByValue(b_link_list L, int e);
 
 #endif
