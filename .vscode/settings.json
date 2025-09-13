@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "windows.h": "c",
+        "compare": "cpp",
+        "type_traits": "cpp",
+        "stdio.h": "c",
+        "bit": "cpp",
+        "cctype": "cpp",
+        "climits": "cpp",
+        "cmath": "cpp",
+        "concepts": "cpp",
+        "cstdarg": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "cstdint": "cpp",
+        "typeinfo": "cpp",
+        "list.h": "c",
+        "stdlib.h": "c",
+        "linklist.h": "c",
+        "value.h": "c",
+        "slist.h": "c",
+        "corecrt_stdio_config.h": "c",
+        "blinklist.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "trae.tab.enableRename": false,
+    "trae.tab.enableAutoImport": false
+}

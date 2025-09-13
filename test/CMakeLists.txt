@@ -1,0 +1,1 @@
+add_executable(MTest test_main.c)

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\main.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\main.c",
+  "file": "C:/vscode-workplace/c/pj1/src/main.c",
+  "output": "src/CMakeFiles/MainExec.dir/main.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\List.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\List.c",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct/List.c",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct/List.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\LinkList.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\LinkList.c",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct/LinkList.c",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct/LinkList.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\BLinkList.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\BLinkList.c",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct/BLinkList.c",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct/BLinkList.c.obj"
+}
+]

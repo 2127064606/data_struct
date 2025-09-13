@@ -1,0 +1,3 @@
+C:\cmake-4.1.0-windows-x86_64\cmake-4.1.0-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\MainExec.dir/objects.a
+C:\MinGw\mingw64\bin\ar.exe qc CMakeFiles\MainExec.dir/objects.a @CMakeFiles\MainExec.dir\objects1.rsp
+C:\MinGw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\MainExec.dir/objects.a -Wl,--no-whole-archive -o MainExec.exe -Wl,--out-implib,libMainExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MainExec.dir\linkLibs.rsp
