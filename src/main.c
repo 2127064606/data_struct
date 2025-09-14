@@ -7,6 +7,8 @@
 #include "./data_struct/BLinkList.h"
 #include "./data_struct/Stack.h"
 #include "./data_struct/LinkStack.h"
+#include "./data_struct/Queue.h"
+#include "./data_struct/LinkQueue.h"
 
 bool compare(int a, int b) { return a == b; }
 
@@ -14,11 +16,12 @@ bool compare(int a, int b) { return a == b; }
 
 int main()
 {
-  link_stack *s;
-  InitStack_L(s);
-  Push_L(s, 1);
-  Push_L(s, 2);
-  Push_L(s, 3);
-  PrintStack_L(*s);
-  
+  link_queue q;
+  InitLinkQueue(&q);
+  EnQueue_L(&q, 1);
+  EnQueue_L(&q, 2);
+  EnQueue_L(&q, 3);
+  EnQueue_L(&q, 4);
+  EnQueue_L(&q, 5);
+  PrintQueue_L(q);
 }

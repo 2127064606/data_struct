@@ -1,5 +1,7 @@
-src/CMakeFiles/MainExec.dir/main.c.obj: \
- C:\vscode-workplace\c\pj1\src\main.c \
+src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.obj: \
+ C:\vscode-workplace\c\pj1\src\data_struct\LinkQueue.c \
+ C:\vscode-workplace\c\pj1\src\data_struct\LinkQueue.h \
+ C:\vscode-workplace\c\pj1\src\data_struct\LinkList.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -11,9 +13,6 @@ src/CMakeFiles/MainExec.dir/main.c.obj: \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/vscode-workplace/c/pj1/src/data_struct/List.h \
- C:/vscode-workplace/c/pj1/src/data_struct/LinkList.h \
- C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
@@ -23,11 +22,4 @@ src/CMakeFiles/MainExec.dir/main.c.obj: \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/malloc.h \
  C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
- C:/MinGw/mingw64/x86_64-w64-mingw32/include/errno.h \
- C:/vscode-workplace/c/pj1/src/data_struct/value.h \
- C:/vscode-workplace/c/pj1/src/data_struct/BLinkList.h \
- C:/vscode-workplace/c/pj1/src/data_struct/Stack.h \
- C:/vscode-workplace/c/pj1/src/data_struct/LinkStack.h \
- C:/vscode-workplace/c/pj1/src/data_struct/Queue.h \
- C:/vscode-workplace/c/pj1/src/data_struct/LinkQueue.h \
- C:/vscode-workplace/c/pj1/src/data_struct/LinkList.h
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/errno.h

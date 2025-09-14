@@ -177,6 +177,30 @@ data_struct/LinkList.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkList.c.s
 .PHONY : data_struct/LinkList.c.s
 
+data_struct/LinkQueue.obj: data_struct/LinkQueue.c.obj
+.PHONY : data_struct/LinkQueue.obj
+
+# target to build an object file
+data_struct/LinkQueue.c.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.obj
+.PHONY : data_struct/LinkQueue.c.obj
+
+data_struct/LinkQueue.i: data_struct/LinkQueue.c.i
+.PHONY : data_struct/LinkQueue.i
+
+# target to preprocess a source file
+data_struct/LinkQueue.c.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.i
+.PHONY : data_struct/LinkQueue.c.i
+
+data_struct/LinkQueue.s: data_struct/LinkQueue.c.s
+.PHONY : data_struct/LinkQueue.s
+
+# target to generate assembly for a file
+data_struct/LinkQueue.c.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.s
+.PHONY : data_struct/LinkQueue.c.s
+
 data_struct/LinkStack.obj: data_struct/LinkStack.c.obj
 .PHONY : data_struct/LinkStack.obj
 
@@ -224,6 +248,30 @@ data_struct/List.s: data_struct/List.c.s
 data_struct/List.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/List.c.s
 .PHONY : data_struct/List.c.s
+
+data_struct/Queue.obj: data_struct/Queue.c.obj
+.PHONY : data_struct/Queue.obj
+
+# target to build an object file
+data_struct/Queue.c.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Queue.c.obj
+.PHONY : data_struct/Queue.c.obj
+
+data_struct/Queue.i: data_struct/Queue.c.i
+.PHONY : data_struct/Queue.i
+
+# target to preprocess a source file
+data_struct/Queue.c.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Queue.c.i
+.PHONY : data_struct/Queue.c.i
+
+data_struct/Queue.s: data_struct/Queue.c.s
+.PHONY : data_struct/Queue.s
+
+# target to generate assembly for a file
+data_struct/Queue.c.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Queue.c.s
+.PHONY : data_struct/Queue.c.s
 
 data_struct/Stack.obj: data_struct/Stack.c.obj
 .PHONY : data_struct/Stack.obj
@@ -288,12 +336,18 @@ help:
 	@echo ... data_struct/LinkList.obj
 	@echo ... data_struct/LinkList.i
 	@echo ... data_struct/LinkList.s
+	@echo ... data_struct/LinkQueue.obj
+	@echo ... data_struct/LinkQueue.i
+	@echo ... data_struct/LinkQueue.s
 	@echo ... data_struct/LinkStack.obj
 	@echo ... data_struct/LinkStack.i
 	@echo ... data_struct/LinkStack.s
 	@echo ... data_struct/List.obj
 	@echo ... data_struct/List.i
 	@echo ... data_struct/List.s
+	@echo ... data_struct/Queue.obj
+	@echo ... data_struct/Queue.i
+	@echo ... data_struct/Queue.s
 	@echo ... data_struct/Stack.obj
 	@echo ... data_struct/Stack.i
 	@echo ... data_struct/Stack.s

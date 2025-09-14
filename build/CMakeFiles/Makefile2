@@ -103,12 +103,12 @@ src/clean: src/CMakeFiles/MainExec.dir/clean
 src/CMakeFiles/MainExec.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target MainExec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target MainExec"
 .PHONY : src/CMakeFiles/MainExec.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/MainExec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode-workplace\c\pj1\build\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode-workplace\c\pj1\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/MainExec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode-workplace\c\pj1\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/MainExec.dir/rule
@@ -120,7 +120,7 @@ MainExec: src/CMakeFiles/MainExec.dir/rule
 # codegen rule for target.
 src/CMakeFiles/MainExec.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target MainExec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Finished codegen for target MainExec"
 .PHONY : src/CMakeFiles/MainExec.dir/codegen
 
 # clean rule for target.

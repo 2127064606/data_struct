@@ -34,5 +34,17 @@
   "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\LinkStack.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\LinkStack.c",
   "file": "C:/vscode-workplace/c/pj1/src/data_struct/LinkStack.c",
   "output": "src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\Queue.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\Queue.c",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct/Queue.c",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct/Queue.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\LinkQueue.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\LinkQueue.c",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct/LinkQueue.c",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.obj"
 }
 ]
