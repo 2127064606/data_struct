@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.0/CMakeRCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeSystem.cmake"
   "C:/vscode-workplace/c/pj1/src/CMakeLists.txt"
+  "C:/vscode-workplace/c/pj1/test/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -56,9 +57,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/MainExec.dir/DependInfo.cmake"
+  "test/CMakeFiles/TestM.dir/DependInfo.cmake"
   )

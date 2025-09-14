@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/vscode-workplace/c/pj1/build/src/cmake_install.cmake")
+  include("C:/vscode-workplace/c/pj1/build/test/cmake_install.cmake")
 
 endif()
 

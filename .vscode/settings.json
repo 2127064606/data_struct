@@ -22,7 +22,12 @@
         "value.h": "c",
         "slist.h": "c",
         "corecrt_stdio_config.h": "c",
-        "blinklist.h": "c"
+        "blinklist.h": "c",
+        "iostream": "cpp",
+        "stack": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "trae.tab.enableRename": false,

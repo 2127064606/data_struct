@@ -1,0 +1,3 @@
+C:\cmake-4.1.0-windows-x86_64\cmake-4.1.0-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\TestM.dir/objects.a
+C:\MinGw\mingw64\bin\ar.exe qc CMakeFiles\TestM.dir/objects.a @CMakeFiles\TestM.dir\objects1.rsp
+C:\MinGw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TestM.dir/objects.a -Wl,--no-whole-archive -o TestM.exe -Wl,--out-implib,libTestM.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TestM.dir\linkLibs.rsp

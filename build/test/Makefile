@@ -64,6 +64,16 @@ CMAKE_BINARY_DIR = C:\vscode-workplace\c\pj1\build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	C:\cmake-4.1.0-windows-x86_64\cmake-4.1.0-windows-x86_64\bin\ctest.exe $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -116,42 +126,66 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/MTest.dir/rule:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/MTest.dir/rule
-.PHONY : test/CMakeFiles/MTest.dir/rule
+test/CMakeFiles/TestM.dir/rule:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/TestM.dir/rule
+.PHONY : test/CMakeFiles/TestM.dir/rule
 
 # Convenience name for target.
-MTest: test/CMakeFiles/MTest.dir/rule
-.PHONY : MTest
+TestM: test/CMakeFiles/TestM.dir/rule
+.PHONY : TestM
 
 # fast build rule for target.
-MTest/fast:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\MTest.dir\build.make test/CMakeFiles/MTest.dir/build
-.PHONY : MTest/fast
+TestM/fast:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/build
+.PHONY : TestM/fast
 
-test_main.obj: test_main.c.obj
+func/AllTest.obj: func/AllTest.cpp.obj
+.PHONY : func/AllTest.obj
+
+# target to build an object file
+func/AllTest.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/func/AllTest.cpp.obj
+.PHONY : func/AllTest.cpp.obj
+
+func/AllTest.i: func/AllTest.cpp.i
+.PHONY : func/AllTest.i
+
+# target to preprocess a source file
+func/AllTest.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/func/AllTest.cpp.i
+.PHONY : func/AllTest.cpp.i
+
+func/AllTest.s: func/AllTest.cpp.s
+.PHONY : func/AllTest.s
+
+# target to generate assembly for a file
+func/AllTest.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/func/AllTest.cpp.s
+.PHONY : func/AllTest.cpp.s
+
+test_main.obj: test_main.cpp.obj
 .PHONY : test_main.obj
 
 # target to build an object file
-test_main.c.obj:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\MTest.dir\build.make test/CMakeFiles/MTest.dir/test_main.c.obj
-.PHONY : test_main.c.obj
+test_main.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/test_main.cpp.obj
+.PHONY : test_main.cpp.obj
 
-test_main.i: test_main.c.i
+test_main.i: test_main.cpp.i
 .PHONY : test_main.i
 
 # target to preprocess a source file
-test_main.c.i:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\MTest.dir\build.make test/CMakeFiles/MTest.dir/test_main.c.i
-.PHONY : test_main.c.i
+test_main.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/test_main.cpp.i
+.PHONY : test_main.cpp.i
 
-test_main.s: test_main.c.s
+test_main.s: test_main.cpp.s
 .PHONY : test_main.s
 
 # target to generate assembly for a file
-test_main.c.s:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\MTest.dir\build.make test/CMakeFiles/MTest.dir/test_main.c.s
-.PHONY : test_main.c.s
+test_main.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/test_main.cpp.s
+.PHONY : test_main.cpp.s
 
 # Help Target
 help:
@@ -161,7 +195,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MTest
+	@echo ... test
+	@echo ... TestM
+	@echo ... func/AllTest.obj
+	@echo ... func/AllTest.i
+	@echo ... func/AllTest.s
 	@echo ... test_main.obj
 	@echo ... test_main.i
 	@echo ... test_main.s

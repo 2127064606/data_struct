@@ -2,7 +2,8 @@
 	"InstallScripts" : 
 	[
 		"C:/vscode-workplace/c/pj1/build/cmake_install.cmake",
-		"C:/vscode-workplace/c/pj1/build/src/cmake_install.cmake"
+		"C:/vscode-workplace/c/pj1/build/src/cmake_install.cmake",
+		"C:/vscode-workplace/c/pj1/build/test/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,3 +1,20 @@
-Start testing: Aug 31 20:12 中国标准时间
+Start testing: Sep 14 19:10 中国标准时间
 ----------------------------------------------------------
-End testing: Aug 31 20:12 中国标准时间
+1/1 Testing: testM
+1/1 Test: testM
+Command: "C:/vscode-workplace/c/pj1/build/test/TestM.exe"
+Directory: C:/vscode-workplace/c/pj1/build/test
+"testM" start time: Sep 14 19:10 中国标准时间
+Output:
+----------------------------------------------------------
+3
+鍖归厤鎴愬姛
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"testM" end time: Sep 14 19:10 中国标准时间
+"testM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 14 19:10 中国标准时间

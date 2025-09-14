@@ -1,5 +1,11 @@
+C:/vscode-workplace/c/pj1/build/CMakeFiles/test.dir
 C:/vscode-workplace/c/pj1/build/CMakeFiles/edit_cache.dir
 C:/vscode-workplace/c/pj1/build/CMakeFiles/rebuild_cache.dir
 C:/vscode-workplace/c/pj1/build/src/CMakeFiles/MainExec.dir
+C:/vscode-workplace/c/pj1/build/src/CMakeFiles/test.dir
 C:/vscode-workplace/c/pj1/build/src/CMakeFiles/edit_cache.dir
 C:/vscode-workplace/c/pj1/build/src/CMakeFiles/rebuild_cache.dir
+C:/vscode-workplace/c/pj1/build/test/CMakeFiles/TestM.dir
+C:/vscode-workplace/c/pj1/build/test/CMakeFiles/test.dir
+C:/vscode-workplace/c/pj1/build/test/CMakeFiles/edit_cache.dir
+C:/vscode-workplace/c/pj1/build/test/CMakeFiles/rebuild_cache.dir

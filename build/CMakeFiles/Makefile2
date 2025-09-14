@@ -63,18 +63,22 @@ CMAKE_BINARY_DIR = C:\vscode-workplace\c\pj1\build
 
 # The main recursive "all" target.
 all: src/all
+all: test/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: src/codegen
+codegen: test/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: src/preinstall
+preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: src/clean
+clean: test/clean
 .PHONY : clean
 
 #=============================================================================
@@ -95,6 +99,25 @@ src/preinstall:
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/MainExec.dir/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory test
+
+# Recursive "all" directory target.
+test/all: test/CMakeFiles/TestM.dir/all
+.PHONY : test/all
+
+# Recursive "codegen" directory target.
+test/codegen: test/CMakeFiles/TestM.dir/codegen
+.PHONY : test/codegen
+
+# Recursive "preinstall" directory target.
+test/preinstall:
+.PHONY : test/preinstall
+
+# Recursive "clean" directory target.
+test/clean: test/CMakeFiles/TestM.dir/clean
+.PHONY : test/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/MainExec.dir
@@ -127,6 +150,38 @@ src/CMakeFiles/MainExec.dir/codegen:
 src/CMakeFiles/MainExec.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/clean
 .PHONY : src/CMakeFiles/MainExec.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/TestM.dir
+
+# All Build rule for target.
+test/CMakeFiles/TestM.dir/all:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/depend
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=10,11,12 "Built target TestM"
+.PHONY : test/CMakeFiles/TestM.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/TestM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode-workplace\c\pj1\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/TestM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\vscode-workplace\c\pj1\build\CMakeFiles 0
+.PHONY : test/CMakeFiles/TestM.dir/rule
+
+# Convenience name for target.
+TestM: test/CMakeFiles/TestM.dir/rule
+.PHONY : TestM
+
+# codegen rule for target.
+test/CMakeFiles/TestM.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=10,11,12 "Finished codegen for target TestM"
+.PHONY : test/CMakeFiles/TestM.dir/codegen
+
+# clean rule for target.
+test/CMakeFiles/TestM.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestM.dir\build.make test/CMakeFiles/TestM.dir/clean
+.PHONY : test/CMakeFiles/TestM.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
