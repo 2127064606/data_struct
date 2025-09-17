@@ -1,19 +1,20 @@
-Start testing: Sep 14 22:07 中国标准时间
+Start testing: Sep 17 13:55 中国标准时间
 ----------------------------------------------------------
 1/1 Testing: testM
 1/1 Test: testM
 Command: "C:/vscode-workplace/c/pj1/build/test/TestM.exe"
 Directory: C:/vscode-workplace/c/pj1/build/test
-"testM" start time: Sep 14 22:07 中国标准时间
+"testM" start time: Sep 17 13:55 中国标准时间
 Output:
 ----------------------------------------------------------
-189
+ 25 40* 92 8+* 100 2/-
+99950
 <end of output>
-Test time =   0.08 sec
+Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"testM" end time: Sep 14 22:07 中国标准时间
+"testM" end time: Sep 17 13:55 中国标准时间
 "testM" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 14 22:07 中国标准时间
+End testing: Sep 17 13:55 中国标准时间

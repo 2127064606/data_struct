@@ -12,4 +12,6 @@ int GetOperatorValue(std::string suffix);
 
 int OperatorCalculate(int op1, int op2, char op);
 
+int GetDigital(std::string num_str, int &start);
+
 #endif
