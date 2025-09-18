@@ -9,6 +9,7 @@
 #include "./data_struct/LinkStack.h"
 #include "./data_struct/Queue.h"
 #include "./data_struct/LinkQueue.h"
+#include "./data_struct/MStr.h"
 
 bool compare(int a, int b) { return a == b; }
 
@@ -16,12 +17,15 @@ bool compare(int a, int b) { return a == b; }
 
 int main()
 {
-  link_queue q;
-  InitLinkQueue(&q);
-  EnQueue_L(&q, 1);
-  EnQueue_L(&q, 2);
-  EnQueue_L(&q, 3);
-  EnQueue_L(&q, 4);
-  EnQueue_L(&q, 5);
-  PrintQueue_L(q);
+ m_str s;
+ InitStr(&s);
+ Concat(&s, 'a');
+ Concat(&s, 'b');
+ Concat(&s, 'c');
+ Concat(&s, 'd');
+ Concat(&s, 'e');
+ m_str t;
+ InitStr(&t);
+ Concat(&t, ' ');
+ printf("%d\n", Index(s, t));
 }

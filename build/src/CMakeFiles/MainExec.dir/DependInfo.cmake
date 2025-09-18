@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/vscode-workplace/c/pj1/src/data_struct/LinkQueue.c" "src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.obj" "gcc" "src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.obj.d"
   "C:/vscode-workplace/c/pj1/src/data_struct/LinkStack.c" "src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj" "gcc" "src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj.d"
   "C:/vscode-workplace/c/pj1/src/data_struct/List.c" "src/CMakeFiles/MainExec.dir/data_struct/List.c.obj" "gcc" "src/CMakeFiles/MainExec.dir/data_struct/List.c.obj.d"
+  "C:/vscode-workplace/c/pj1/src/data_struct/MStr.c" "src/CMakeFiles/MainExec.dir/data_struct/MStr.c.obj" "gcc" "src/CMakeFiles/MainExec.dir/data_struct/MStr.c.obj.d"
   "C:/vscode-workplace/c/pj1/src/data_struct/Queue.c" "src/CMakeFiles/MainExec.dir/data_struct/Queue.c.obj" "gcc" "src/CMakeFiles/MainExec.dir/data_struct/Queue.c.obj.d"
   "C:/vscode-workplace/c/pj1/src/data_struct/Stack.c" "src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj" "gcc" "src/CMakeFiles/MainExec.dir/data_struct/Stack.c.obj.d"
   "C:/vscode-workplace/c/pj1/src/main.c" "src/CMakeFiles/MainExec.dir/main.c.obj" "gcc" "src/CMakeFiles/MainExec.dir/main.c.obj.d"

@@ -30,4 +30,5 @@ src/CMakeFiles/MainExec.dir/main.c.obj: \
  C:/vscode-workplace/c/pj1/src/data_struct/LinkStack.h \
  C:/vscode-workplace/c/pj1/src/data_struct/Queue.h \
  C:/vscode-workplace/c/pj1/src/data_struct/LinkQueue.h \
- C:/vscode-workplace/c/pj1/src/data_struct/LinkList.h
+ C:/vscode-workplace/c/pj1/src/data_struct/LinkList.h \
+ C:/vscode-workplace/c/pj1/src/data_struct/MStr.h

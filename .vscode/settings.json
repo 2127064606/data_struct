@@ -62,7 +62,14 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "text_encoding": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "cerrno": "cpp",
+        "ios": "cpp",
+        "locale": "cpp",
+        "cstdbool": "cpp",
+        "*.rh": "cpp",
+        "mstr.h": "c",
+        "stdbool.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "trae.tab.enableRename": false,

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MainExec.dir/data_struct/LinkStack.c.obj.d"
   "CMakeFiles/MainExec.dir/data_struct/List.c.obj"
   "CMakeFiles/MainExec.dir/data_struct/List.c.obj.d"
+  "CMakeFiles/MainExec.dir/data_struct/MStr.c.obj"
+  "CMakeFiles/MainExec.dir/data_struct/MStr.c.obj.d"
   "CMakeFiles/MainExec.dir/data_struct/Queue.c.obj"
   "CMakeFiles/MainExec.dir/data_struct/Queue.c.obj.d"
   "CMakeFiles/MainExec.dir/data_struct/Stack.c.obj"

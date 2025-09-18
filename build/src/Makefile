@@ -259,6 +259,30 @@ data_struct/List.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/List.c.s
 .PHONY : data_struct/List.c.s
 
+data_struct/MStr.obj: data_struct/MStr.c.obj
+.PHONY : data_struct/MStr.obj
+
+# target to build an object file
+data_struct/MStr.c.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/MStr.c.obj
+.PHONY : data_struct/MStr.c.obj
+
+data_struct/MStr.i: data_struct/MStr.c.i
+.PHONY : data_struct/MStr.i
+
+# target to preprocess a source file
+data_struct/MStr.c.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/MStr.c.i
+.PHONY : data_struct/MStr.c.i
+
+data_struct/MStr.s: data_struct/MStr.c.s
+.PHONY : data_struct/MStr.s
+
+# target to generate assembly for a file
+data_struct/MStr.c.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/MStr.c.s
+.PHONY : data_struct/MStr.c.s
+
 data_struct/Queue.obj: data_struct/Queue.c.obj
 .PHONY : data_struct/Queue.obj
 
@@ -356,6 +380,9 @@ help:
 	@echo ... data_struct/List.obj
 	@echo ... data_struct/List.i
 	@echo ... data_struct/List.s
+	@echo ... data_struct/MStr.obj
+	@echo ... data_struct/MStr.i
+	@echo ... data_struct/MStr.s
 	@echo ... data_struct/Queue.obj
 	@echo ... data_struct/Queue.i
 	@echo ... data_struct/Queue.s
