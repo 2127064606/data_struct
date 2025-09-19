@@ -1,6 +1,6 @@
 #include "Mstr.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 
 void InitStr(m_str *str)
 {
@@ -64,4 +64,49 @@ int Index(m_str s, m_str t)
         i++;
     }
     return -1;
+}
+
+int *GetNextArr(m_str t)
+{
+    if(t.size == 0) return NULL;
+    int *next = (int *)malloc(sizeof(int) * t.size);
+    next[0] = -1; // 第一个字符的next值为0
+    next[1] = 0;
+    int i = 1;
+    int j = 0;
+    
+    while(i < t.size)
+    {
+        if(j == -1 || t.data[i] == t.data[j])
+        {
+            i++;
+            j++;
+            next[i] = j;
+        }
+        else
+        {
+            j = next[j];
+        }
+    }
+    
+    return next;
+}
+int Index_KMP(m_str s, m_str t, int next[])
+{
+    int i = 0;
+    int j = 0;
+    while(i < s.size && j < t.size)
+    {
+        if(j == -1 || s.data[i] == t.data[j])
+        {
+            i++;
+            j++;
+        }
+        else
+        {
+            j = next[j];
+        }
+    }
+    if(j == t.size)return i - t.size;
+    else return -1;
 }

@@ -17,15 +17,22 @@ bool compare(int a, int b) { return a == b; }
 
 int main()
 {
- m_str s;
- InitStr(&s);
- Concat(&s, 'a');
- Concat(&s, 'b');
- Concat(&s, 'c');
- Concat(&s, 'd');
- Concat(&s, 'e');
- m_str t;
- InitStr(&t);
- Concat(&t, ' ');
- printf("%d\n", Index(s, t));
+    // 测试KMP算法
+    m_str s;
+    InitStr(&s);
+    Concat(&s, 'a');
+    Concat(&s, 'b');
+    Concat(&s, 'a');
+    Concat(&s, 'b');
+    Concat(&s, 'a');
+    Concat(&s, 'b');
+    Concat(&s, 'b');
+    Concat(&s, 'b');
+    m_str t;
+    InitStr(&t);
+    Concat(&t, 'a');
+    Concat(&t, 'b');
+    Concat(&t, 'a');
+    printf("%d\n", Index_KMP(s, t, GetNextArr(t)));
+   
 }

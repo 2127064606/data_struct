@@ -18,5 +18,7 @@ char CharAt(m_str str, int index);
 bool SubString(m_str *sub, m_str src, int pos, int len);
 int StrCompare(m_str s, m_str t);
 int Index(m_str s, m_str t);
+int *GetNextArr(m_str t);
+int Index_KMP(m_str s, m_str t, int next[]);
 
 #endif

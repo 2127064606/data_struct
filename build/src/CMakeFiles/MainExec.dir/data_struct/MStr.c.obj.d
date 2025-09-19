@@ -12,4 +12,14 @@ src/CMakeFiles/MainExec.dir/data_struct/MStr.c.obj: \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/MinGw/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
- C:/MinGw/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/MinGw/mingw64/x86_64-w64-mingw32/include/errno.h
