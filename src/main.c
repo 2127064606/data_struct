@@ -10,6 +10,7 @@
 #include "./data_struct/Queue.h"
 #include "./data_struct/LinkQueue.h"
 #include "./data_struct/MStr.h"
+#include "./data_struct/LinkTree.h"
 
 bool compare(int a, int b) { return a == b; }
 
@@ -17,22 +18,15 @@ bool compare(int a, int b) { return a == b; }
 
 int main()
 {
-    // 测试KMP算法
-    m_str s;
-    InitStr(&s);
-    Concat(&s, 'a');
-    Concat(&s, 'b');
-    Concat(&s, 'a');
-    Concat(&s, 'b');
-    Concat(&s, 'a');
-    Concat(&s, 'b');
-    Concat(&s, 'b');
-    Concat(&s, 'b');
-    m_str t;
-    InitStr(&t);
-    Concat(&t, 'a');
-    Concat(&t, 'b');
-    Concat(&t, 'a');
-    printf("%d\n", Index_KMP(s, t, GetNextArr(t)));
-   
+    l_tree *tree;
+    InitTree(tree);
+    CreateTree(tree);
+    PreOrder(*tree);    
+    printf("\n");
+    InOrder(*tree);
+    printf("\n");
+    PostOrder(*tree);
+    printf("\n");
+    LevelOrder(*tree);
+    printf("\n");
 }

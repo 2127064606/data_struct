@@ -235,6 +235,30 @@ data_struct/LinkStack.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkStack.c.s
 .PHONY : data_struct/LinkStack.c.s
 
+data_struct/LinkTree.obj: data_struct/LinkTree.c.obj
+.PHONY : data_struct/LinkTree.obj
+
+# target to build an object file
+data_struct/LinkTree.c.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkTree.c.obj
+.PHONY : data_struct/LinkTree.c.obj
+
+data_struct/LinkTree.i: data_struct/LinkTree.c.i
+.PHONY : data_struct/LinkTree.i
+
+# target to preprocess a source file
+data_struct/LinkTree.c.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkTree.c.i
+.PHONY : data_struct/LinkTree.c.i
+
+data_struct/LinkTree.s: data_struct/LinkTree.c.s
+.PHONY : data_struct/LinkTree.s
+
+# target to generate assembly for a file
+data_struct/LinkTree.c.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/LinkTree.c.s
+.PHONY : data_struct/LinkTree.c.s
+
 data_struct/List.obj: data_struct/List.c.obj
 .PHONY : data_struct/List.obj
 
@@ -377,6 +401,9 @@ help:
 	@echo ... data_struct/LinkStack.obj
 	@echo ... data_struct/LinkStack.i
 	@echo ... data_struct/LinkStack.s
+	@echo ... data_struct/LinkTree.obj
+	@echo ... data_struct/LinkTree.i
+	@echo ... data_struct/LinkTree.s
 	@echo ... data_struct/List.obj
 	@echo ... data_struct/List.i
 	@echo ... data_struct/List.s

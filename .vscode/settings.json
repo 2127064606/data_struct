@@ -69,7 +69,8 @@
         "cstdbool": "cpp",
         "*.rh": "cpp",
         "mstr.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "linktree.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "trae.tab.enableRename": false,
