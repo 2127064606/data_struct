@@ -70,7 +70,7 @@ int *GetNextArr(m_str t)
 {
     if(t.size == 0) return NULL;
     int *next = (int *)malloc(sizeof(int) * t.size);
-    next[0] = -1; // 第一个字符的next值为0
+    next[0] = -1; // 第一个字符的next值为-1
     next[1] = 0;
     int i = 1;
     int j = 0;
