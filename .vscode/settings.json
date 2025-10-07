@@ -70,7 +70,11 @@
         "*.rh": "cpp",
         "mstr.h": "c",
         "stdbool.h": "c",
-        "linktree.h": "c"
+        "linktree.h": "c",
+        "queue.h": "c",
+        "list.cpp": "c",
+        "list.hpp": "c",
+        "list": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "trae.tab.enableRename": false,

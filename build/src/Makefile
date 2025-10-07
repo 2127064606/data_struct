@@ -355,29 +355,77 @@ data_struct/Stack.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Stack.c.s
 .PHONY : data_struct/Stack.c.s
 
-main.obj: main.c.obj
+data_struct_cpp/List.obj: data_struct_cpp/List.cpp.obj
+.PHONY : data_struct_cpp/List.obj
+
+# target to build an object file
+data_struct_cpp/List.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj
+.PHONY : data_struct_cpp/List.cpp.obj
+
+data_struct_cpp/List.i: data_struct_cpp/List.cpp.i
+.PHONY : data_struct_cpp/List.i
+
+# target to preprocess a source file
+data_struct_cpp/List.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.i
+.PHONY : data_struct_cpp/List.cpp.i
+
+data_struct_cpp/List.s: data_struct_cpp/List.cpp.s
+.PHONY : data_struct_cpp/List.s
+
+# target to generate assembly for a file
+data_struct_cpp/List.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.s
+.PHONY : data_struct_cpp/List.cpp.s
+
+main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+src_cpp/List.obj: src_cpp/List.cpp.obj
+.PHONY : src_cpp/List.obj
+
+# target to build an object file
+src_cpp/List.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj
+.PHONY : src_cpp/List.cpp.obj
+
+src_cpp/List.i: src_cpp/List.cpp.i
+.PHONY : src_cpp/List.i
+
+# target to preprocess a source file
+src_cpp/List.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.i
+.PHONY : src_cpp/List.cpp.i
+
+src_cpp/List.s: src_cpp/List.cpp.s
+.PHONY : src_cpp/List.s
+
+# target to generate assembly for a file
+src_cpp/List.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.s
+.PHONY : src_cpp/List.cpp.s
 
 # Help Target
 help:
@@ -416,9 +464,15 @@ help:
 	@echo ... data_struct/Stack.obj
 	@echo ... data_struct/Stack.i
 	@echo ... data_struct/Stack.s
+	@echo ... data_struct_cpp/List.obj
+	@echo ... data_struct_cpp/List.i
+	@echo ... data_struct_cpp/List.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src_cpp/List.obj
+	@echo ... src_cpp/List.i
+	@echo ... src_cpp/List.s
 .PHONY : help
 
 

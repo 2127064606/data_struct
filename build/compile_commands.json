@@ -1,9 +1,9 @@
 [
 {
   "directory": "C:/vscode-workplace/c/pj1/build/src",
-  "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\main.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\main.c",
-  "file": "C:/vscode-workplace/c/pj1/src/main.c",
-  "output": "src/CMakeFiles/MainExec.dir/main.c.obj"
+  "command": "C:\\MinGw\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MainExec.dir\\main.cpp.obj -c C:\\vscode-workplace\\c\\pj1\\src\\main.cpp",
+  "file": "C:/vscode-workplace/c/pj1/src/main.cpp",
+  "output": "src/CMakeFiles/MainExec.dir/main.cpp.obj"
 },
 {
   "directory": "C:/vscode-workplace/c/pj1/build/src",
@@ -58,6 +58,18 @@
   "command": "C:\\MinGw\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\MainExec.dir\\data_struct\\LinkTree.c.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct\\LinkTree.c",
   "file": "C:/vscode-workplace/c/pj1/src/data_struct/LinkTree.c",
   "output": "src/CMakeFiles/MainExec.dir/data_struct/LinkTree.c.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MainExec.dir\\src_cpp\\List.cpp.obj -c C:\\vscode-workplace\\c\\pj1\\src\\src_cpp\\List.cpp",
+  "file": "C:/vscode-workplace/c/pj1/src/src_cpp/List.cpp",
+  "output": "src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MainExec.dir\\data_struct_cpp\\List.cpp.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct_cpp\\List.cpp",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct_cpp/List.cpp",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj"
 },
 {
   "directory": "C:/vscode-workplace/c/pj1/build/test",

@@ -71,19 +71,19 @@ include src/CMakeFiles/MainExec.dir/flags.make
 src/CMakeFiles/MainExec.dir/codegen:
 .PHONY : src/CMakeFiles/MainExec.dir/codegen
 
-src/CMakeFiles/MainExec.dir/main.c.obj: src/CMakeFiles/MainExec.dir/flags.make
-src/CMakeFiles/MainExec.dir/main.c.obj: C:/vscode-workplace/c/pj1/src/main.c
-src/CMakeFiles/MainExec.dir/main.c.obj: src/CMakeFiles/MainExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/MainExec.dir/main.c.obj"
-	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/MainExec.dir/main.c.obj -MF CMakeFiles\MainExec.dir\main.c.obj.d -o CMakeFiles\MainExec.dir\main.c.obj -c C:\vscode-workplace\c\pj1\src\main.c
+src/CMakeFiles/MainExec.dir/main.cpp.obj: src/CMakeFiles/MainExec.dir/flags.make
+src/CMakeFiles/MainExec.dir/main.cpp.obj: C:/vscode-workplace/c/pj1/src/main.cpp
+src/CMakeFiles/MainExec.dir/main.cpp.obj: src/CMakeFiles/MainExec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/MainExec.dir/main.cpp.obj"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MainExec.dir/main.cpp.obj -MF CMakeFiles\MainExec.dir\main.cpp.obj.d -o CMakeFiles\MainExec.dir\main.cpp.obj -c C:\vscode-workplace\c\pj1\src\main.cpp
 
-src/CMakeFiles/MainExec.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MainExec.dir/main.c.i"
-	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\vscode-workplace\c\pj1\src\main.c > CMakeFiles\MainExec.dir\main.c.i
+src/CMakeFiles/MainExec.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MainExec.dir/main.cpp.i"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\vscode-workplace\c\pj1\src\main.cpp > CMakeFiles\MainExec.dir\main.cpp.i
 
-src/CMakeFiles/MainExec.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MainExec.dir/main.c.s"
-	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\vscode-workplace\c\pj1\src\main.c -o CMakeFiles\MainExec.dir\main.c.s
+src/CMakeFiles/MainExec.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MainExec.dir/main.cpp.s"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode-workplace\c\pj1\src\main.cpp -o CMakeFiles\MainExec.dir\main.cpp.s
 
 src/CMakeFiles/MainExec.dir/data_struct/List.c.obj: src/CMakeFiles/MainExec.dir/flags.make
 src/CMakeFiles/MainExec.dir/data_struct/List.c.obj: C:/vscode-workplace/c/pj1/src/data_struct/List.c
@@ -211,9 +211,37 @@ src/CMakeFiles/MainExec.dir/data_struct/LinkTree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MainExec.dir/data_struct/LinkTree.c.s"
 	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\vscode-workplace\c\pj1\src\data_struct\LinkTree.c -o CMakeFiles\MainExec.dir\data_struct\LinkTree.c.s
 
+src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj: src/CMakeFiles/MainExec.dir/flags.make
+src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj: C:/vscode-workplace/c/pj1/src/src_cpp/List.cpp
+src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj: src/CMakeFiles/MainExec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj -MF CMakeFiles\MainExec.dir\src_cpp\List.cpp.obj.d -o CMakeFiles\MainExec.dir\src_cpp\List.cpp.obj -c C:\vscode-workplace\c\pj1\src\src_cpp\List.cpp
+
+src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MainExec.dir/src_cpp/List.cpp.i"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\vscode-workplace\c\pj1\src\src_cpp\List.cpp > CMakeFiles\MainExec.dir\src_cpp\List.cpp.i
+
+src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MainExec.dir/src_cpp/List.cpp.s"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode-workplace\c\pj1\src\src_cpp\List.cpp -o CMakeFiles\MainExec.dir\src_cpp\List.cpp.s
+
+src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj: src/CMakeFiles/MainExec.dir/flags.make
+src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj: C:/vscode-workplace/c/pj1/src/data_struct_cpp/List.cpp
+src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj: src/CMakeFiles/MainExec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj -MF CMakeFiles\MainExec.dir\data_struct_cpp\List.cpp.obj.d -o CMakeFiles\MainExec.dir\data_struct_cpp\List.cpp.obj -c C:\vscode-workplace\c\pj1\src\data_struct_cpp\List.cpp
+
+src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.i"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\vscode-workplace\c\pj1\src\data_struct_cpp\List.cpp > CMakeFiles\MainExec.dir\data_struct_cpp\List.cpp.i
+
+src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.s"
+	cd /d C:\vscode-workplace\c\pj1\build\src && C:\MinGw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\vscode-workplace\c\pj1\src\data_struct_cpp\List.cpp -o CMakeFiles\MainExec.dir\data_struct_cpp\List.cpp.s
+
 # Object files for target MainExec
 MainExec_OBJECTS = \
-"CMakeFiles/MainExec.dir/main.c.obj" \
+"CMakeFiles/MainExec.dir/main.cpp.obj" \
 "CMakeFiles/MainExec.dir/data_struct/List.c.obj" \
 "CMakeFiles/MainExec.dir/data_struct/LinkList.c.obj" \
 "CMakeFiles/MainExec.dir/data_struct/BLinkList.c.obj" \
@@ -222,12 +250,14 @@ MainExec_OBJECTS = \
 "CMakeFiles/MainExec.dir/data_struct/Queue.c.obj" \
 "CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.obj" \
 "CMakeFiles/MainExec.dir/data_struct/MStr.c.obj" \
-"CMakeFiles/MainExec.dir/data_struct/LinkTree.c.obj"
+"CMakeFiles/MainExec.dir/data_struct/LinkTree.c.obj" \
+"CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj" \
+"CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj"
 
 # External object files for target MainExec
 MainExec_EXTERNAL_OBJECTS =
 
-src/MainExec.exe: src/CMakeFiles/MainExec.dir/main.c.obj
+src/MainExec.exe: src/CMakeFiles/MainExec.dir/main.cpp.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/List.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/LinkList.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/BLinkList.c.obj
@@ -237,11 +267,13 @@ src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/Queue.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/LinkQueue.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/MStr.c.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct/LinkTree.c.obj
+src/MainExec.exe: src/CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj
+src/MainExec.exe: src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/build.make
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/linkLibs.rsp
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/objects1.rsp
 src/MainExec.exe: src/CMakeFiles/MainExec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable MainExec.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\vscode-workplace\c\pj1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable MainExec.exe"
 	cd /d C:\vscode-workplace\c\pj1\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MainExec.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

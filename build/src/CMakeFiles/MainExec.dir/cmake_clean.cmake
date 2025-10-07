@@ -17,8 +17,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/MainExec.dir/data_struct/Queue.c.obj.d"
   "CMakeFiles/MainExec.dir/data_struct/Stack.c.obj"
   "CMakeFiles/MainExec.dir/data_struct/Stack.c.obj.d"
-  "CMakeFiles/MainExec.dir/main.c.obj"
-  "CMakeFiles/MainExec.dir/main.c.obj.d"
+  "CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj"
+  "CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj.d"
+  "CMakeFiles/MainExec.dir/main.cpp.obj"
+  "CMakeFiles/MainExec.dir/main.cpp.obj.d"
+  "CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj"
+  "CMakeFiles/MainExec.dir/src_cpp/List.cpp.obj.d"
   "MainExec.exe"
   "MainExec.exe.manifest"
   "MainExec.pdb"
@@ -26,6 +30,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C)
+foreach(lang C CXX)
   include(CMakeFiles/MainExec.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
