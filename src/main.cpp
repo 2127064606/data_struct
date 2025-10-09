@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include "./data_struct/value.h"
 #include "./data_struct/BLinkList.h"
-#include "./data_struct/Stack.h"
+//#include "./data_struct/Stack.h"
 #include "./data_struct/LinkStack.h"
 #include "./data_struct/Queue.h"
 #include "./data_struct/LinkQueue.h"
@@ -14,7 +14,8 @@
 //#include "./src_cpp/List.hpp"
 #include <string>
 #include <iostream>
-#include "./data_struct_cpp/List.cpp"
+#include "./data_struct_cpp/List.hpp"
+#include "./data_struct_cpp/Stack.hpp"
 
 bool compare(int a, int b) { return a == b; }
 
@@ -22,14 +23,16 @@ bool compare(int a, int b) { return a == b; }
 
 int main()
 {
-   List<int> list;
-   list.insert(1, 1);
-   list.insert(2, 2);
-   list.insert(3, 3);
-   list.insert(4, 4);
-   list.insert(5, 5);
-   int data;
-   int k = list.remove(5);
-   std::cout<< "k:"<< k << "\nsize:" << list.size() << std::endl;
-
+  Stack<char> stack;
+  stack.push('a');
+  stack.push('b');
+  stack.push('c');
+  stack.push('d');
+  stack.push('e');
+  while (!stack.empty())
+  {
+    std::cout << stack.top() << std::endl;
+    stack.pop();
+  }
+  
 }

@@ -32,7 +32,6 @@ src/CMakeFiles/MainExec.dir/main.cpp.obj: \
  C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
  C:/vscode-workplace/c/pj1/src/data_struct/value.h \
  C:/vscode-workplace/c/pj1/src/data_struct/BLinkList.h \
- C:/vscode-workplace/c/pj1/src/data_struct/Stack.h \
  C:/vscode-workplace/c/pj1/src/data_struct/LinkStack.h \
  C:/vscode-workplace/c/pj1/src/data_struct/Queue.h \
  C:/vscode-workplace/c/pj1/src/data_struct/LinkQueue.h \
@@ -146,5 +145,6 @@ src/CMakeFiles/MainExec.dir/main.cpp.obj: \
  C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc \
  C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream \
  C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
- C:/vscode-workplace/c/pj1/src/data_struct_cpp/List.cpp \
+ C:/vscode-workplace/c/pj1/src/data_struct_cpp/List.hpp \
+ C:/vscode-workplace/c/pj1/src/data_struct_cpp/Stack.hpp \
  C:/vscode-workplace/c/pj1/src/data_struct_cpp/List.hpp
