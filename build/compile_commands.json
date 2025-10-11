@@ -78,6 +78,18 @@
   "output": "src/CMakeFiles/MainExec.dir/data_struct_cpp/Stack.cpp.obj"
 },
 {
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MainExec.dir\\data_struct_cpp\\Queue.cpp.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct_cpp\\Queue.cpp",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct_cpp/Queue.cpp",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct_cpp/Queue.cpp.obj"
+},
+{
+  "directory": "C:/vscode-workplace/c/pj1/build/src",
+  "command": "C:\\MinGw\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MainExec.dir\\data_struct_cpp\\String.cpp.obj -c C:\\vscode-workplace\\c\\pj1\\src\\data_struct_cpp\\String.cpp",
+  "file": "C:/vscode-workplace/c/pj1/src/data_struct_cpp/String.cpp",
+  "output": "src/CMakeFiles/MainExec.dir/data_struct_cpp/String.cpp.obj"
+},
+{
   "directory": "C:/vscode-workplace/c/pj1/build/test",
   "command": "C:\\MinGw\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TestM.dir\\test_main.cpp.obj -c C:\\vscode-workplace\\c\\pj1\\test\\test_main.cpp",
   "file": "C:/vscode-workplace/c/pj1/test/test_main.cpp",

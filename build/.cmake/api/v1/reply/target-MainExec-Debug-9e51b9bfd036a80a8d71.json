@@ -55,7 +55,9 @@
 				0,
 				10,
 				11,
-				12
+				12,
+				13,
+				14
 			]
 		},
 		{
@@ -121,7 +123,9 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				13,
+				14
 			]
 		}
 	],
@@ -203,6 +207,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/data_struct_cpp/Stack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/data_struct_cpp/Queue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/data_struct_cpp/String.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

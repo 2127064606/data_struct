@@ -18,6 +18,7 @@ private:
 
 public:
     List();
+    List<T>& operator=(const List<T> &other);
     ~List();
     void insert(int index, const T &data);
     void insert_head(const T &data);
@@ -29,6 +30,9 @@ public:
     T get(int index) const;
     T get_head() const;
     T get_tail() const;
+    void clear();
+    Node<T> *begin()const{ return head->next; }
+    Node<T> *end()const{ return tail->next; }
 };
 
 template <typename T>
@@ -135,6 +139,20 @@ T List<T>::get(int index) const
 }
 
 template <typename T>
+void List<T>::clear(){
+    Node<T> *p = head->next;
+    Node<T> *t = p;
+    while(p != nullptr){
+        p = p->next;
+        delete t;
+        t = p;
+        --_size;
+    }
+    head->next = nullptr;
+    tail = head;
+}
+
+template <typename T>
 void List<T>::insert_head(const T &data){
     Node<T> *s = new Node<T>();
     s->data = data;
@@ -180,4 +198,16 @@ void List<T>::remove_head(){
     if(head->next == nullptr)tail = head;
 }
 
+
+template <typename T>
+List<T>& List<T>::operator=(const List<T> &other){
+    if(this == &other)return *this;
+    clear();
+    auto it = other.begin();
+    while(it != other.end()){
+        insert_tail(it->data);
+        it = it->next;
+    }
+    return *this;
+}
 #endif
