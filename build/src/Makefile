@@ -451,6 +451,30 @@ data_struct_cpp/String.cpp.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/String.cpp.s
 .PHONY : data_struct_cpp/String.cpp.s
 
+data_struct_cpp/Tree.obj: data_struct_cpp/Tree.cpp.obj
+.PHONY : data_struct_cpp/Tree.obj
+
+# target to build an object file
+data_struct_cpp/Tree.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Tree.cpp.obj
+.PHONY : data_struct_cpp/Tree.cpp.obj
+
+data_struct_cpp/Tree.i: data_struct_cpp/Tree.cpp.i
+.PHONY : data_struct_cpp/Tree.i
+
+# target to preprocess a source file
+data_struct_cpp/Tree.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Tree.cpp.i
+.PHONY : data_struct_cpp/Tree.cpp.i
+
+data_struct_cpp/Tree.s: data_struct_cpp/Tree.cpp.s
+.PHONY : data_struct_cpp/Tree.s
+
+# target to generate assembly for a file
+data_struct_cpp/Tree.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Tree.cpp.s
+.PHONY : data_struct_cpp/Tree.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -548,6 +572,9 @@ help:
 	@echo ... data_struct_cpp/String.obj
 	@echo ... data_struct_cpp/String.i
 	@echo ... data_struct_cpp/String.s
+	@echo ... data_struct_cpp/Tree.obj
+	@echo ... data_struct_cpp/Tree.i
+	@echo ... data_struct_cpp/Tree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

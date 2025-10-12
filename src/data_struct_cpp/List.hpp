@@ -174,13 +174,8 @@ void List<T>::insert_tail(const T &data){
 
 template <typename T>
 T List<T>::get_head() const{
-    try{
-        if(head->next == nullptr) throw -1;
-        return head->next->data;
-    }catch(int e){
-        std::cout << "List is empty" << std::endl;
-        return e;
-    }
+  
+  return head->next->data;
 }
 
 template <typename T>
