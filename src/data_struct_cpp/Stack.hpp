@@ -1,6 +1,7 @@
 #ifndef STACK_HPP
 #define STACK_HPP
 #include "List.hpp"
+
 template <class T>
 class Stack{
     private:
@@ -56,5 +57,7 @@ void Stack<T>::clear(){
         pop();
     }
 }
+
+
 
 #endif

@@ -19,22 +19,14 @@
 #include "./data_struct_cpp/Queue.hpp"
 #include "./data_struct_cpp/String.hpp"
 #include "./data_struct_cpp/Tree.hpp"
-
+#include "./data_struct_cpp/Math.hpp"
 bool compare(int a, int b) { return a == b; }
 
 
 
 int main()
 {
-  Tree<char> t(true);
-  t.preorder(t.get_root());
-  std::cout << std::endl;
-  t.inorder(t.get_root());
-  std::cout << std::endl;
-  t.postorder(t.get_root());
-  std::cout << std::endl;
-  t.postorder(t.get_root());
-  std::cout << std::endl;
-  t.levelorder();
-  std::cout << std::endl;
+  String str = "1+2*(3-4)";
+  String suffix = Math::getsuffix(str);
+  std::cout << Math::calculate(suffix) << std::endl;
 }

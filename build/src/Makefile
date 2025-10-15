@@ -379,6 +379,30 @@ data_struct_cpp/List.cpp.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.s
 .PHONY : data_struct_cpp/List.cpp.s
 
+data_struct_cpp/Math.obj: data_struct_cpp/Math.cpp.obj
+.PHONY : data_struct_cpp/Math.obj
+
+# target to build an object file
+data_struct_cpp/Math.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Math.cpp.obj
+.PHONY : data_struct_cpp/Math.cpp.obj
+
+data_struct_cpp/Math.i: data_struct_cpp/Math.cpp.i
+.PHONY : data_struct_cpp/Math.i
+
+# target to preprocess a source file
+data_struct_cpp/Math.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Math.cpp.i
+.PHONY : data_struct_cpp/Math.cpp.i
+
+data_struct_cpp/Math.s: data_struct_cpp/Math.cpp.s
+.PHONY : data_struct_cpp/Math.s
+
+# target to generate assembly for a file
+data_struct_cpp/Math.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Math.cpp.s
+.PHONY : data_struct_cpp/Math.cpp.s
+
 data_struct_cpp/Queue.obj: data_struct_cpp/Queue.cpp.obj
 .PHONY : data_struct_cpp/Queue.obj
 
@@ -563,6 +587,9 @@ help:
 	@echo ... data_struct_cpp/List.obj
 	@echo ... data_struct_cpp/List.i
 	@echo ... data_struct_cpp/List.s
+	@echo ... data_struct_cpp/Math.obj
+	@echo ... data_struct_cpp/Math.i
+	@echo ... data_struct_cpp/Math.s
 	@echo ... data_struct_cpp/Queue.obj
 	@echo ... data_struct_cpp/Queue.i
 	@echo ... data_struct_cpp/Queue.s

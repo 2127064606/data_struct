@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MainExec.dir/data_struct/Stack.c.obj.d"
   "CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj"
   "CMakeFiles/MainExec.dir/data_struct_cpp/List.cpp.obj.d"
+  "CMakeFiles/MainExec.dir/data_struct_cpp/Math.cpp.obj"
+  "CMakeFiles/MainExec.dir/data_struct_cpp/Math.cpp.obj.d"
   "CMakeFiles/MainExec.dir/data_struct_cpp/Queue.cpp.obj"
   "CMakeFiles/MainExec.dir/data_struct_cpp/Queue.cpp.obj.d"
   "CMakeFiles/MainExec.dir/data_struct_cpp/Stack.cpp.obj"

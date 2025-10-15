@@ -25,6 +25,11 @@ String& String::operator+=(const String& other){
     return *this;
 }
 
+String& String::operator+=(const char& ch){
+    this->list.insert_tail(ch);
+    return *this;
+}
+
 String String::operator+(const String& other)const{
    String res;
    for(auto it = this->list.begin(); it!= this->list.end(); it = it->next){
@@ -34,6 +39,12 @@ String String::operator+(const String& other)const{
         res.list.insert_tail(it->data);
    }
    return res;
+}
+
+String String::operator+(const char& ch)const{
+    String res = *this;
+    res.concat(ch);
+    return res;
 }
 
 void String::concat(const char* str){

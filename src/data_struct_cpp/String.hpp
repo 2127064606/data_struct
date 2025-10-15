@@ -12,7 +12,9 @@ class String{
         ~String(){}
         String& operator=(const String& other);
         String& operator+=(const String& other);
+        String& operator+=(const char& ch);
         String operator+(const String& other)const;
+        String operator+(const char& ch)const;
         bool operator==(const String& other)const;
         bool operator!=(const String& other)const;
         bool operator<(const String& other)const;
