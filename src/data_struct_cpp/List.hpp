@@ -20,6 +20,7 @@ public:
     List();
     List<T>& operator=(const List<T> &other);
     ~List();
+    List(const List<T> &other);
     void insert(int index, const T &data);
     void insert_head(const T &data);
     void insert_tail(const T &data);
@@ -27,10 +28,14 @@ public:
     int remove(int index, T &data);
     int remove(const T &data);
     int size() const;
+    bool contain(const T & data);
+    bool empty() const{ return _size == 0; }
+    int get_index(const T& data)const;
     T get(int index) const;
     T get_head() const;
     T get_tail() const;
     void clear();
+    void print() const;
     Node<T> *begin()const{ return head->next; }
     Node<T> *end()const{ return tail->next; }
 };
@@ -205,4 +210,50 @@ List<T>& List<T>::operator=(const List<T> &other){
     }
     return *this;
 }
+template <typename T>
+void List<T>::print() const{
+    auto it = begin();
+    while(it != end()){
+        std::cout << it->data << " ";
+        it = it->next;
+    }
+    std::cout << std::endl;
+}
+
+template <typename T>
+List<T>::List(const List<T> &other){
+    head = new Node<T>();
+    tail = head;
+    head->next = nullptr;
+    _size = 0;
+    auto it = other.begin();
+    while(it!= other.end()){
+        insert_tail(it->data);
+        it = it->next;
+    }
+}
+
+template <typename T>
+bool List<T>::contain(const T & data){
+    auto it = begin();
+    while(it != end()){
+        if(it->data == data)return true;
+        it = it->next;
+    }
+    return false;
+}
+
+
+template <typename T>
+int List<T>::get_index(const T& data)const {
+    auto it = begin();
+    int index = 1;
+    while(it != end()){
+        if(it->data == data)return index;
+        it = it->next;
+        ++index;
+    }
+    return 0;
+}
+
 #endif

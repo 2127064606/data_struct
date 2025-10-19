@@ -355,6 +355,30 @@ data_struct/Stack.c.s:
 	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct/Stack.c.s
 .PHONY : data_struct/Stack.c.s
 
+data_struct_cpp/Graph.obj: data_struct_cpp/Graph.cpp.obj
+.PHONY : data_struct_cpp/Graph.obj
+
+# target to build an object file
+data_struct_cpp/Graph.cpp.obj:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Graph.cpp.obj
+.PHONY : data_struct_cpp/Graph.cpp.obj
+
+data_struct_cpp/Graph.i: data_struct_cpp/Graph.cpp.i
+.PHONY : data_struct_cpp/Graph.i
+
+# target to preprocess a source file
+data_struct_cpp/Graph.cpp.i:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Graph.cpp.i
+.PHONY : data_struct_cpp/Graph.cpp.i
+
+data_struct_cpp/Graph.s: data_struct_cpp/Graph.cpp.s
+.PHONY : data_struct_cpp/Graph.s
+
+# target to generate assembly for a file
+data_struct_cpp/Graph.cpp.s:
+	cd /d C:\vscode-workplace\c\pj1\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\MainExec.dir\build.make src/CMakeFiles/MainExec.dir/data_struct_cpp/Graph.cpp.s
+.PHONY : data_struct_cpp/Graph.cpp.s
+
 data_struct_cpp/List.obj: data_struct_cpp/List.cpp.obj
 .PHONY : data_struct_cpp/List.obj
 
@@ -584,6 +608,9 @@ help:
 	@echo ... data_struct/Stack.obj
 	@echo ... data_struct/Stack.i
 	@echo ... data_struct/Stack.s
+	@echo ... data_struct_cpp/Graph.obj
+	@echo ... data_struct_cpp/Graph.i
+	@echo ... data_struct_cpp/Graph.s
 	@echo ... data_struct_cpp/List.obj
 	@echo ... data_struct_cpp/List.i
 	@echo ... data_struct_cpp/List.s

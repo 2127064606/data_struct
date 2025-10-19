@@ -20,13 +20,25 @@
 #include "./data_struct_cpp/String.hpp"
 #include "./data_struct_cpp/Tree.hpp"
 #include "./data_struct_cpp/Math.hpp"
+#include "./data_struct_cpp/Graph.hpp"
 bool compare(int a, int b) { return a == b; }
+void visit(const char& c){std::cout<< c << std::endl;}
 
 
 
 int main()
 {
-  String str = "1+2*(3-4)";
-  String suffix = Math::getsuffix(str);
-  std::cout << Math::calculate(suffix) << std::endl;
+  Graph<char> g;
+  g.add_vertex('A');
+  g.add_vertex('B');
+  g.add_vertex('C');
+  g.add_vertex('D');
+  g.add_vertex('E');
+  g.add_edge('A', 'B');
+  g.add_edge('A', 'C');
+  g.add_edge('B', 'D');
+  g.add_edge('C', 'D');
+  g.add_edge('D', 'E');
+  g.print();
+  g.bfsTraveral(visit);
 }
