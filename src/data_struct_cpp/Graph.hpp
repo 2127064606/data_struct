@@ -35,6 +35,8 @@ class Graph {
         T next_nerighbor(const T& v, const T& w);
         void bfs(const T& start, std::map<T, bool>& visited, void (*visit)(const T&));
         void bfsTraveral(void(*visit)(const T&));
+        void dfs(const T& start, std::map<T, bool>& visited, void (*visit)(const T&));
+        void dfsTraveral(void(*visit)(const T&));
         void print()const;
 };
 
@@ -156,4 +158,29 @@ void Graph<T>::bfsTraveral(void(*visit)(const T&)){
     }
 }
 
+template <typename T>
+void Graph<T>::dfs(const T& start, std::map<T, bool>& visited, void(*visit)(const T&)){
+    visit(start);
+    visited[start] = true;
+    for(auto it = first_nerighbor(start); it != T(); it = next_nerighbor(start, it)){
+        if(!visited[it]){
+            dfs(it, visited, visit);
+        }
+    }
+}
+
+template <typename T>
+void Graph<T>::dfsTraveral(void(*visit)(const T&)){
+    std::map<T, bool>visited;
+    auto it = tables.begin();
+    while(it != tables.end()){
+        visited[it->data.value] = false;
+        it = it->next;
+    }
+    for(auto pt = visited.begin(); pt != visited.end(); pt++){
+        if(!pt->second){
+            dfs(pt->first, visited, visit);
+        }
+    }
+}
 #endif

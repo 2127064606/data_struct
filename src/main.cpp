@@ -41,4 +41,5 @@ int main()
   g.add_edge('D', 'E');
   g.print();
   g.bfsTraveral(visit);
+  g.dfsTraveral(visit);
 }
